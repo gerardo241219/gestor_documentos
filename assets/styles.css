@@ -1,0 +1,44 @@
+:root {
+    --background-body: '#e1e1e1';
+}
+
+.container-login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-body);
+}
+
+.container-login .card {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 1.5rem;
+}
+
+.card-header {
+    background-color: #737373;
+    color: white;
+    text-align: center;
+}
+
+.card-title {
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+}
+
+.container-login .card .card-body .img-login {
+    width: 100%;
+    max-width: 80px;
+}
+
+.container-login .card .card-body .form-login {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.container-login .card .card-body .form-login .btn-login {
+    width: 100%;
+}
